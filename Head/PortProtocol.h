@@ -1,15 +1,15 @@
-#pragma once
+#pragma once//只运行一次，.cpp文件中调用.h文件
 #include <iostream>
-#include <fstream>
-#include <unistd.h>
-#include <termios.h>
+#include <fstream>//文件写入读出
+#include <unistd.h>//LUNIX
+#include <termios.h>//LUNIX
 #include<string.h>
 
 
-#include <fcntl.h>
+#include <fcntl.h>//unix
 #include <unistd.h>
 #include <termios.h>
-#include <errno.h>
+#include <errno.h>//找出出错原因
 
 #include <iostream>
 #include <fstream>
